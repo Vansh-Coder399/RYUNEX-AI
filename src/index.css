@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --bg-dark: #0B0F1A;
+  --primary: #7C3AED;
+  --secondary: #22D3EE;
+}
+
+body {
+  background-color: var(--bg-dark);
+  color: white;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
